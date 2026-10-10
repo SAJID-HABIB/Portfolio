@@ -1,6 +1,6 @@
 import axios from "axios";
 const contactApi = axios.create({
-  baseURL: "http://localhost:5000/api/v1",
+  baseURL: "https://portfolio-backend-beige-three.vercel.app/api/v1",
   headers: {
     "Content-Type": "application/json"
   },
